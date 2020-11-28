@@ -986,7 +986,7 @@ img {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-width: 880px;
+  min-width: 920px;
   margin-bottom: 50px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
@@ -1758,8 +1758,8 @@ img {
     font-size: 18px;
   }
   .pr-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   .pr-section.description {
     padding-top: 50px;
@@ -1768,6 +1768,18 @@ img {
   .pr-container.hero {
     padding-right: 0px;
     padding-left: 0px;
+  }
+  .pr-container.production {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .pr-container.refitting {
+    padding-right: 3px;
+    padding-left: 3px;
+  }
+  .pr-container.service {
+    padding-right: 3px;
+    padding-left: 3px;
   }
   .pr-hero-text-wrap {
     width: 80%;
@@ -1778,11 +1790,11 @@ img {
     margin-bottom: 25px;
   }
   .pr-row-production {
-    border-radius: 11px;
+    border-radius: 7px;
   }
   .pr-img {
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
   }
   .pr-list-item.description {
     padding-top: 40px;
@@ -1821,10 +1833,10 @@ img {
     font-size: 28px;
   }
   .pr-row-refitting {
-    border-radius: 11px;
+    border-radius: 7px;
   }
   .pr-row-service {
-    border-radius: 11px;
+    border-radius: 7px;
   }
   .pr-list.description {
     margin-bottom: 50px;
